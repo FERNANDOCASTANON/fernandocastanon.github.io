@@ -1,0 +1,171 @@
+/* --------------------- GLOBAL------------------------ */
+body {
+    opacity: 1;
+    transition: 3s opacity;
+}
+
+section {
+  opacity: 1;
+  transition: 3s opacity;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+html {
+    background-color: #fff;
+}
+
+
+
+/* --------------------- GLOBAL CLASSES------------------------ */
+.light-color {
+  background-color: #fff;
+  color: black
+}
+
+.dark-color {
+  background-color: #222222;
+  color: white;
+}
+
+.green-button {
+  background-color: #33cc33;
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.lg-topspace {
+  margin-top: 40px;
+}
+
+.xl-topspace {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.margin-space {
+  margin-bottom: 140px;
+}
+
+.sm-margin-space {
+  margin-bottom: 40px;
+}
+
+::selection {
+  background-color: #33cc33;
+}
+
+header {
+  position: static;
+}
+
+/* --------------------- GLOBAL ELEMENTS------------------------ */
+
+/* --------------------- GLOBAL STYLES------------------------ */
+
+/* --------------------- GLOBAL MEDIA QUERIES------------------------ */
+
+
+/* --------------------- ||||| INTRO ||||| ------------------------ */
+#intro {
+  background-image: url("../images/forest.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 800px;
+  color: white;
+}
+/* --------------------- INTRO ID's------------------------ */
+#intro-heading {
+  font-size: 4em;
+  margin-top: 300px;
+}
+
+#intro-paragraph {
+  font-size: 3em;
+}
+
+/* --------------------- INTRO ELEMENTS------------------------ */
+
+/* --------------------- INTRO STYLES------------------------ */
+
+/* --------------------- INTRO MEDIA QUERIES------------------------ */
+@media only screen and (max-width : 900px) {
+  #intro {
+    height: 600px;
+  }
+
+  #intro-heading {
+    margin-top: 70px;
+    font-size: 3em;
+  }
+
+  #intro-paragraph {
+    font-size: 2em;
+  }
+
+  .lg-topspace {
+    margin-top: 70px;
+  }
+}
+
+/* --------------------- ||||| WORK THAT I DO ||||| ------------------------ */
+
+/* --------------------- WORK ID's------------------------ */
+#py-icon {
+  color: green;
+}
+/* --------------------- GLOBAL ELEMENTS/ ADD ON's ------------------------ */
+i {
+  font-size: 100px;
+}
+/* --------------------- WORK STYLEs------------------------ */
+
+/* --------------------- WORK MEDIA QUERIES------------------------ */
+@media only screen and (max-width : 900px) {
+  .xl-topspace {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+}
+
+/* --------------------- ||||| PORTFOLIO SECTION ||||| ------------------------ */
+
+/* --------------------- PORTFOLIO ID's ------------------------ */
+
+/* --------------------- PORTFOLIO ELEMENTS / ADD ON's------------------------ */
+
+/* --------------------- PORTFOLIO STYLES ------------------------ */
+
+/* --------------------- PORTFOLIO MEDIA QUERIES ------------------------ */
+
+
+/* ---------------------||||| ABOUT ME ||||| ------------------------ */
+/* --------------------- ABOUT ID's------------------------ */
+#profile-pic {
+  border-radius: 50%;
+}
+/* --------------------- ABOUT ELEMENTS / ADD ON's------------------------ */
+/* --------------------- ABOUT STYLES------------------------ */
+/* --------------------- ABOUT MEDIA QUERIES ------------------------ */
+
+/* --------------------- ||||| CONTACT INFO ||||| ------------------------ */
+
+/* --------------------- CONTACT ID's ------------------------ */
+ {
+
+}
+/* --------------------- CONTACT ELEMENTS / ADD ON's------------------------ */
+
+/* --------------------- CONTACT STYLES------------------------ */
+/* --------------------- CONTACT MEDIA QUERIES------------------------ */
+
+/* --------------------- ||||| FOOTER SECTION ||||| ------------------------ */
+/* --------------------- FOOTER ID's------------------------ */
+/* --------------------- FOOTER ELEMENTS / ADD ON's------------------------ */
+/* --------------------- FOOTER STYLES------------------------ */
+/* --------------------- FOOTER MEDIA QUERIES------------------------ */
