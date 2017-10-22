@@ -147,7 +147,17 @@ i {
 /* ---------------------||||| ABOUT ME ||||| ------------------------ */
 /* --------------------- ABOUT ID's------------------------ */
 #profile-pic {
-  border-radius: 45%;
+  border-radius: 50%;
+}
+
+#github-icon {
+  color: black;
+  font-size: 35px;
+}
+
+#codepen-icon {
+  color: black;
+  font-size: 35px;
 }
 /* --------------------- ABOUT ELEMENTS / ADD ON's------------------------ */
 /* --------------------- ABOUT STYLES------------------------ */
