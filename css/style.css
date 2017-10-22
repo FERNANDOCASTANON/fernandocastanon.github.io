@@ -16,7 +16,14 @@ html {
     background-color: #fff;
 }
 
+/* Fix extra space in browser */
 
+html,body
+{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
 
 /* --------------------- GLOBAL CLASSES------------------------ */
 .light-color {
