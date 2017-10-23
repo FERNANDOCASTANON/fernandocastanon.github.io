@@ -96,6 +96,10 @@ header {
   font-size: 3em;
 }
 
+#intro-paragraph {
+  font-style: italic;
+}
+
 /* --------------------- INTRO ELEMENTS------------------------ */
 
 /* --------------------- INTRO STYLES------------------------ */
@@ -108,11 +112,11 @@ header {
 
   #intro-heading {
     margin-top: 70px;
-    font-size: 3em;
+    font-size: 2em;
   }
 
   #intro-paragraph {
-    font-size: 2em;
+    font-size: 1.4em;
   }
 
   .lg-topspace {
