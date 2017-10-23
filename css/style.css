@@ -113,10 +113,15 @@ header {
   #intro-heading {
     margin-top: 70px;
     font-size: 2em;
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   #intro-paragraph {
     font-size: 1.4em;
+    width: 85%;
+    margin: auto;
   }
 
   .lg-topspace {
