@@ -70,6 +70,10 @@ header {
   position: static;
 }
 
+.footerlink {
+  color: white;
+}
+
 /* --------------------- GLOBAL ELEMENTS------------------------ */
 
 /* --------------------- GLOBAL STYLES------------------------ */
