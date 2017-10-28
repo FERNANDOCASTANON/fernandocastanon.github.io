@@ -74,6 +74,10 @@ header {
   color: white;
 }
 
+.footergreen {
+  color: #333;
+}
+
 /* --------------------- GLOBAL ELEMENTS------------------------ */
 
 /* --------------------- GLOBAL STYLES------------------------ */
@@ -179,6 +183,10 @@ i {
   color: black;
   font-size: 35px;
 }
+
+.border {
+  border: 2px black solid;
+  background-color: #33cc33;}
 /* --------------------- ABOUT ELEMENTS / ADD ON's------------------------ */
 /* --------------------- ABOUT STYLES------------------------ */
 /* --------------------- ABOUT MEDIA QUERIES ------------------------ */
