@@ -186,7 +186,10 @@ i {
 
 .border {
   border: 2px black solid;
-  background-color: #33cc33;}
+  background-color: #33cc33;
+  padding: 10px;
+  margin-top: 15px;
+}
 /* --------------------- ABOUT ELEMENTS / ADD ON's------------------------ */
 /* --------------------- ABOUT STYLES------------------------ */
 /* --------------------- ABOUT MEDIA QUERIES ------------------------ */
