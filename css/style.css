@@ -43,6 +43,16 @@ html,body
   padding-bottom: 10px;
 }
 
+.green-button_2 {
+  background-color: #33cc33;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 4%;
+}
+
 .lg-topspace {
   margin-top: 40px;
 }
@@ -158,7 +168,9 @@ i {
 /* --------------------- ||||| PORTFOLIO SECTION ||||| ------------------------ */
 
 /* --------------------- PORTFOLIO ID's ------------------------ */
-
+#portfolio p {
+  margin-top: 5px;
+}
 /* --------------------- PORTFOLIO ELEMENTS / ADD ON's------------------------ */
 
 /* --------------------- PORTFOLIO STYLES ------------------------ */
