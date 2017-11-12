@@ -161,14 +161,12 @@ i {
   }
 }
 
-#social-paragraph {
-  margin: 5px;
-}
-
 /* --------------------- ||||| PORTFOLIO SECTION ||||| ------------------------ */
 
 /* --------------------- PORTFOLIO ID's ------------------------ */
-
+#portfolio p {
+  margin-top: 5px;
+}
 /* --------------------- PORTFOLIO ELEMENTS / ADD ON's------------------------ */
 
 /* --------------------- PORTFOLIO STYLES ------------------------ */
