@@ -226,8 +226,16 @@
   <section id="about" class="light-color text-center">
     <div class="container-fluid">
       <h1>About Me</h1>
+
       <img id="profile-pic" src="./images/profile-pic.jpg" height="200px" width="200px" alt="Me">
-      <h4>Never satisfied</h4>
+      <h4 class="quotes">Never satisfied</h4>
+      <h4 class="quotes">Turn your wounds into wisdom.</h4>
+      <h4 class="quotes">Remember no one can make you feel inferior without your consent.</h4>
+      <h4 class="quotes">Hope is a waking dream. - Aristotle</h4>
+      <h4 class="quotes">Action is the foundational key to all success. - Pable Picasso</h4>
+      <h4 class="quotes">Do one thing every day that scares you. - Eleanor Roosevelt</h4>
+      <h4 class="quotes">It does not matter how slowly you go as long as you do not stop. - Confucius</h4>
+
       <div class="row">
         <div class="col-lg-6">
           <p>I am currently pursuing a B.S. in Computer Science. I am a highly motivated individual and self-taught Web Developer based in Los Angeles, California. My goal is to always provide amazing expiriences and quality websites to help bring anyone's ideas to the real world.</p>
@@ -339,8 +347,28 @@
       });
     }
   });
+
+
   </script>
 
+  <script type="text/javascript">
+  (function() {
+
+  var quotes = $(".quotes");
+  var quoteIndex = -1;
+
+  function showNextQuote() {
+      ++quoteIndex;
+      quotes.eq(quoteIndex % quotes.length)
+          .fadeIn(2000)
+          .delay(2000)
+          .fadeOut(2000, showNextQuote);
+  }
+
+  showNextQuote();
+
+})();
+  </script>
 
 </body>
 </html>
