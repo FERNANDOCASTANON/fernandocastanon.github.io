@@ -119,7 +119,7 @@ header {
 /* --------------------- INTRO MEDIA QUERIES------------------------ */
 @media only screen and (max-width : 900px) {
   #intro {
-    height: 600px;
+    height: 550px;
   }
 
   #intro-heading {
