@@ -190,6 +190,10 @@ i {
   font-size: 35px;
 }
 
+#h {
+  margin: 10px;
+}
+
 /* --------------------- ABOUT ELEMENTS / ADD ON's------------------------ */
 .quotes {
   display: none;
