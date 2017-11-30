@@ -95,7 +95,7 @@ header {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 800px;
+  height: 915px;
   color: white;
 }
 /* --------------------- INTRO ID's------------------------ */
@@ -119,7 +119,7 @@ header {
 /* --------------------- INTRO MEDIA QUERIES------------------------ */
 @media only screen and (max-width : 900px) {
   #intro {
-    height: 550px;
+    height: 650px;
   }
 
   #intro-heading {
