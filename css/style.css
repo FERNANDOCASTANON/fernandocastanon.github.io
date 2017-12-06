@@ -78,6 +78,11 @@ header {
   position: static;
 }
 
+header h1 {
+  margin: 0;
+  margin: 10px;
+}
+
 .footerlink {
   color: white;
 }
@@ -127,6 +132,13 @@ header {
 
 /* --------------------- INTRO MEDIA QUERIES------------------------ */
 @media only screen and (max-width : 900px) {
+
+  header h1 {
+    font-size: 25px;
+    margin: 0;
+    margin: 7px;
+  }
+
   #intro {
     /*
     height: 650px; */
