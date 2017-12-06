@@ -113,13 +113,24 @@ header {
 }
 
 /* --------------------- INTRO ELEMENTS------------------------ */
+.intro-link {
+  color: white;
+  font-size: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
+.intro-link:hover {
+  color: #33cc33;
+}
 /* --------------------- INTRO STYLES------------------------ */
 
 /* --------------------- INTRO MEDIA QUERIES------------------------ */
 @media only screen and (max-width : 900px) {
   #intro {
-    height: 650px;
+    /*
+    height: 650px; */
+    height: 100vh;
   }
 
   #intro-heading {
@@ -137,7 +148,18 @@ header {
   }
 
   .lg-topspace {
-    margin-top: 70px;
+    margin-top: 40px;
+  }
+
+  .intro-link {
+    color: white;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  header h1 {
+    padding: -10px;
   }
 }
 
@@ -151,6 +173,7 @@ header {
 i {
   font-size: 100px;
 }
+
 /* --------------------- WORK STYLEs------------------------ */
 
 /* --------------------- WORK MEDIA QUERIES------------------------ */
@@ -170,6 +193,11 @@ i {
 /* --------------------- PORTFOLIO ELEMENTS / ADD ON's------------------------ */
 
 /* --------------------- PORTFOLIO STYLES ------------------------ */
+hr {
+  color: #33cc33;
+  font-size: 3px;
+  width: 85%;
+}
 
 /* --------------------- PORTFOLIO MEDIA QUERIES ------------------------ */
 
