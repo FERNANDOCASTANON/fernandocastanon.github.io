@@ -1,3 +1,8 @@
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
 /* --------------------- GLOBAL------------------------ */
 body {
     opacity: 1;
@@ -168,11 +173,6 @@ header h1 {
     font-size: 30px;
     padding-left: 10px;
     padding-right: 10px;
-  }
-
-  header {
-    position: fixed;
-    width: 100%;
   }
 
   header h1 {
