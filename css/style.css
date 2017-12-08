@@ -170,6 +170,11 @@ header h1 {
     padding-right: 10px;
   }
 
+  header {
+    position: fixed;
+    width: 100%;
+  }
+
   header h1 {
     padding: -10px;
   }
