@@ -28,10 +28,46 @@ html,body
     overflow-x: hidden;
 }
 
-p {
+#work p {
   position: relative;
   animation-name: content;
-  animation-duration: 5s;
+  animation-duration: 7;
+  animation-fill-mode: forwards;
+}
+
+@keyframes content {
+  0% {left: -1000px;}
+  100% {left: 0;}
+}
+
+#portfolio p {
+  position: relative;
+  animation-name: content;
+  animation-duration: 15s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes content {
+  0% {left: -1000px;}
+  100% {left: 0;}
+}
+
+#about p {
+  position: relative;
+  animation-name: content;
+  animation-duration: 25s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes content {
+  0% {left: -1000px;}
+  100% {left: 0;}
+}
+
+#contac p {
+  position: relative;
+  animation-name: content;
+  animation-duration: 35s;
   animation-fill-mode: forwards;
 }
 
