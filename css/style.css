@@ -28,10 +28,46 @@ html,body
     overflow-x: hidden;
 }
 
+#intro h1 {
+  position: relative;
+  animation-name: content;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes content {
+  0% {left: -1000px;}
+  100% {left: 0;}
+}
+
+#intro p {
+  position: relative;
+  animation-name: content;
+  animation-duration: 3.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes content {
+  0% {left: -1000px;}
+  100% {left: 0;}
+}
+
+#intro a {
+  position: relative;
+  animation-name: content;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes content {
+  0% {left: -1000px;}
+  100% {left: 0;}
+}
+
 #work p {
   position: relative;
   animation-name: content;
-  animation-duration: 7;
+  animation-duration: 7s;
   animation-fill-mode: forwards;
 }
 
@@ -64,7 +100,7 @@ html,body
   100% {left: 0;}
 }
 
-#contac p {
+#contact p {
   position: relative;
   animation-name: content;
   animation-duration: 40s;
