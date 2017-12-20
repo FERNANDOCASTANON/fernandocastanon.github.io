@@ -31,7 +31,7 @@ html,body
 p {
   position: relative;
   animation-name: content;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-fill-mode: forwards;
 }
 
