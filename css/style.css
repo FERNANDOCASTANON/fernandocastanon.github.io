@@ -67,7 +67,7 @@ html,body
 #contac p {
   position: relative;
   animation-name: content;
-  animation-duration: 35s;
+  animation-duration: 40s;
   animation-fill-mode: forwards;
 }
 
