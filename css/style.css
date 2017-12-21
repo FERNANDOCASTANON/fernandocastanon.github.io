@@ -103,7 +103,7 @@ html,body
 #contact p {
   position: relative;
   animation-name: content;
-  animation-duration: 40s;
+  animation-duration: 30s;
   animation-fill-mode: forwards;
 }
 
