@@ -31,7 +31,7 @@ html,body
 #intro h1 {
   position: relative;
   animation-name: content;
-  animation-duration: 2s;
+  animation-duration: .7s;
   animation-fill-mode: forwards;
 }
 
@@ -43,7 +43,7 @@ html,body
 #intro p {
   position: relative;
   animation-name: content;
-  animation-duration: 3.5s;
+  animation-duration: .9s;
   animation-fill-mode: forwards;
 }
 
@@ -55,7 +55,7 @@ html,body
 #intro a {
   position: relative;
   animation-name: content;
-  animation-duration: 4s;
+  animation-duration: 1.1s;
   animation-fill-mode: forwards;
 }
 
@@ -64,52 +64,11 @@ html,body
   100% {left: 0;}
 }
 
-#work p {
+#intro .lg-topspace {
   position: relative;
   animation-name: content;
-  animation-duration: 7s;
+  animation-duration: 1.2s;
   animation-fill-mode: forwards;
-}
-
-@keyframes content {
-  0% {left: -1000px;}
-  100% {left: 0;}
-}
-
-#portfolio p {
-  position: relative;
-  animation-name: content;
-  animation-duration: 15s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes content {
-  0% {left: -1000px;}
-  100% {left: 0;}
-}
-
-#about p {
-  position: relative;
-  animation-name: content;
-  animation-duration: 25s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes content {
-  0% {left: -1000px;}
-  100% {left: 0;}
-}
-
-#contact p {
-  position: relative;
-  animation-name: content;
-  animation-duration: 30s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes content {
-  0% {left: -1000px;}
-  100% {left: 0;}
 }
 
 /* --------------------- GLOBAL CLASSES------------------------ */
