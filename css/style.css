@@ -71,6 +71,20 @@ html,body
   animation-fill-mode: forwards;
 }
 */
+#node-icon {
+  background-color: #222222;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+}
+
+#php-icon {
+
+}
+
+#react-icon {
+
+}
 /* --------------------- GLOBAL CLASSES------------------------ */
 .light-color {
   background-color: #fff;
