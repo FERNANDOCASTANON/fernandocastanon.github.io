@@ -321,7 +321,16 @@ hr {
 }
 /* --------------------- ABOUT STYLES------------------------ */
 /* --------------------- ABOUT MEDIA QUERIES ------------------------ */
-
+@media only screen and (max-width : 900px) {
+  .gallery {
+    border-top: red 3px solid;
+    border-bottom: red 3px solid;
+  }
+  .gallery img {
+    width: 150px;
+    height: 150px;
+  }
+}
 /* --------------------- ||||| CONTACT INFO ||||| ------------------------ */
 
 /* --------------------- CONTACT ID's ------------------------ */
