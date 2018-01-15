@@ -178,11 +178,6 @@
         <img src="./images/gym.PNG" alt="" width="200px" height="200px">
       </a>
       <p>I made a fictional gym site with an image slider and responsonsive menu.</p>
-      <!--
-      <h3>eCommerce Site</h3>
-      <a href="" class="green-button_2">Click me!</a>
-      <p>[blank] wanted to sell his clothing brand online so I made him an eCommerce website so he could further spread his business. I
-      used Wrordpress plugins</p> -->
     </div>
   </div>
 
@@ -305,14 +300,6 @@
       <h1>About Me</h1>
 
       <img id="profile-pic" src="./images/Fernando.jpg" height="200px" width="200px" alt="Me">
-      <h4 class="quotes">Never satisfied</h4>
-      <h4 class="quotes">Turn your wounds into wisdom.</h4>
-      <h4 class="quotes">We are what we do repedetly</h4>
-      <h4 class="quotes">Don't listen to the neisayers</h4>
-      <h4 class="quotes">Hope is a waking dream</h4>
-      <h4 class="quotes">Action is the foundational key to all success</h4>
-      <h4 class="quotes">Do one thing every day that scares you</h4>
-      <h4 class="quotes">Keep going, you're almost there</h4>
 
       <div class="row">
         <div class="col-lg-6">
@@ -325,7 +312,7 @@
       <div class="row text-center">
         <h1>Hobbies</h1>
 
-        <div id="h" class="row">
+        <div class="row">
           <div class="col-lg-4">
             <img src="./images/arduino-starter-kit.jpg" width="170px" height="170px" alt="hardware">
             <h2>Arduino Starter Kit</h2>
@@ -344,17 +331,6 @@
             <p>I started making YouTube videos to express my love for Arduino and Raspbarry Pi</p>
           </div>
 
-        </div>
-
-        <div class="row">
-          <h1>Social Media</h1>
-
-          <div class="col-lg-12">
-
-            <h4 id="social">Follow me on <a href="https://www.instagram.com/ancientsamuraiwarlord/" target="_blank"><i id="ig-icon" class="fa fa-instagram" aria-hidden="true"></i></a> and
-            <a href="https://twitter.com/ancientwarlord" target="_blank" ><i id="tw-icon" class="fa fa-twitter-square" aria-hidden="true"></i></a> to see what I'm up to day to day! I
-            tweet daily and share instagram stories.</h4>
-          </div>
         </div>
 
         </div>
@@ -404,7 +380,6 @@
   <script>document.body.className += ' fade-out';</script>
 
   <script>
-
   $(function() {
     $('body').removeClass('fade-out');
   });
@@ -425,28 +400,6 @@
       });
     }
   });
-
-
   </script>
-
-  <script type="text/javascript">
-  (function() {
-
-  var quotes = $(".quotes");
-  var quoteIndex = -1;
-
-  function showNextQuote() {
-      ++quoteIndex;
-      quotes.eq(quoteIndex % quotes.length)
-          .fadeIn(2000)
-          .delay(2000)
-          .fadeOut(2000, showNextQuote);
-  }
-
-  showNextQuote();
-
-})();
-  </script>
-
 </body>
 </html>
