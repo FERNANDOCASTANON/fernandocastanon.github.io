@@ -315,6 +315,11 @@ hr {
   margin: 10px;
 }
 
+img #gallery {
+  width: 300px;
+  height: auto;
+}
+
 /* --------------------- ABOUT ELEMENTS / ADD ON's------------------------ */
 .quotes {
   display: none;
