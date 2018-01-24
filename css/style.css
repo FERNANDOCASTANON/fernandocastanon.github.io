@@ -104,6 +104,19 @@ header h1 {
     left: 0;
     z-index: 99;
   }
+
+  #portfolio.dark-color {
+    border-bottom: solid 2px red;
+    border-top: solid 2px red;
+  }
+
+  #about {
+    border-bottom: solid 2px red;
+  }
+
+  #intro {
+    border-bottom: solid 2px red;
+  }
 }
 /* --------------------- GLOBAL ELEMENTS------------------------ */
 
@@ -233,7 +246,9 @@ hr {
 }
 
 /* --------------------- PORTFOLIO MEDIA QUERIES ------------------------ */
+@media only screen and (max-width : 900px) {
 
+}
 
 /* ---------------------||||| ABOUT ME ||||| ------------------------ */
 /* --------------------- ABOUT ID's------------------------ */
