@@ -104,19 +104,6 @@ header h1 {
     left: 0;
     z-index: 99;
   }
-
-  #portfolio.dark-color {
-    border-bottom: solid 2px red;
-    border-top: solid 2px red;
-  }
-
-  #about {
-    border-bottom: solid 2px red;
-  }
-
-  #intro {
-    border-bottom: solid 2px red;
-  }
 }
 /* --------------------- GLOBAL ELEMENTS------------------------ */
 
@@ -285,6 +272,8 @@ img #gallery {
 #gallery img {
   width: 100%;
   height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 /* --------------------- CONTACT ID's ------------------------ */
 
