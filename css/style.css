@@ -63,6 +63,10 @@ body {
   max-width: 100%;
 }
 
+#work i {
+  font-size: 100px;
+}
+
 .skills-section, .contact-section {
   background-color: #2e86de;
   color: #fff;
