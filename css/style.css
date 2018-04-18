@@ -162,7 +162,7 @@ html, body {
 .square-icon {
   position: absolute;
   left: 50%;
-  top: -40px;
+  top: -45px;
   width: 40%;
   height: 60px;
   font-size: 45px;
@@ -171,20 +171,21 @@ html, body {
 }
 
 .contact-button {
-  color: #55E6C1;
+  color: #fff;
   padding: 15px 20px;
   display: inline-block;
   margin-top: 20px;
-  border: 1px solid #55E6C1;
+  border: 1px solid #fff;
   border-radius: 2px;
   transition: .35s;
+  background-color: #e74c3c;
 }
 
 .contact-button:hover {
   text-decoration: none;
-  color: #fff;
-  background-color: #55E6C1;
-  border: 1px solid #fff;
+  color: #e74c3c;
+  background-color: #fff;
+  border: 1px solid #e74c3c;
 }
 
 .filter a {
@@ -195,7 +196,7 @@ html, body {
 }
 
 .filter a:hover {
-  color: #55E6C1;
+  color: #e74c3c;
   border: 1px solid #95a5a6;
   padding:10px 18px;
   display: block;
@@ -207,14 +208,14 @@ html, body {
 }
 
 .filter .current {
-  background-color: #55E6C1;
-  border-color:  #55E6C1;
+  background-color: #e74c3c;
+  border-color:  #e74c3c;
   color: #fff;
 }
 
 .filter .current:hover {
-  background-color: #55E6C1;
-  border-color:  #55E6C1;
+  background-color: #e74c3c;
+  border-color:  #e74c3c;
   color: #fff;
 }
 
@@ -284,7 +285,7 @@ html, body {
 .items a {
   width: 40px;
   height: 40px;
-  background-color: #55E6C1;
+  background-color: #e74c3c;
   position: relative;
   display: inline-block;
 
