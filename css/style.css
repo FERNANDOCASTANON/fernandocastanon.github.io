@@ -81,6 +81,10 @@ html, body {
   font-size: 100px;
 }
 
+.tech {
+  margin-bottom: 50px;
+}
+
 .skills-section, .contact-section {
   background-color: #2e86de;
   color: #fff;
