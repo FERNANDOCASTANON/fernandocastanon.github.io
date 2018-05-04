@@ -4,9 +4,6 @@ body {
   background-color: #fff;
   letter-spacing: 1px;
 }
-#navigation, #contact, #skills {
-  background-color: #00b894 !important;
-}
 
 .overlay {
   width: 100%;
