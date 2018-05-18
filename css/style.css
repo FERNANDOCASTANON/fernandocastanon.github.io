@@ -82,6 +82,12 @@ html, body {
   font-size: 100px;
 }
 
+#about .col-md-4 {
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 8px;
+  box-shadow: 3px 5px #888888;
+}
+
 .tech {
   margin-bottom: 50px;
 }
