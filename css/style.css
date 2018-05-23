@@ -5,6 +5,51 @@ body {
   letter-spacing: 1px;
 }
 
+.water1 {
+  background: url('../img/slide2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.water2 {
+  background: url('../img/slide3.jpeg') 0 0;
+  background-size: cover !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.water3 {
+  background: url('../img/slide4.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.water4 {
+  background: url('../img/slide5.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.water5 {
+  background: url('../img/slide6.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
 #map{ height: 400px; width: 100%; margin-top: 20px;}
 .overlay {
   width: 100%;
