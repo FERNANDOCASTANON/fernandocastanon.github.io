@@ -146,11 +146,3 @@ $(document).ready(function() {
     }
   }
 });
-
-jQuery(document).ready(function() {
-  "use strict"
-  $('.water').ripples({
-    dropRadius: 15,
-    perturbance: .01,
-  });
-});

@@ -24,11 +24,17 @@
   <div id="slides">
     <div class="overlay"></div>
     <div class="slides-container">
-      <img class="water" src="img/slide2.jpg" alt="">
-      <img class="water" src="img/slide3.jpeg" alt="">
-      <img class="water" src="img/slide4.jpeg" alt="">
-      <img class="water" src="img/slide5.jpeg" alt="">
-      <img class="water" src="img/slide6.jpeg" alt="">
+      <div class="water1" style="background:url('img/slide2.jpg')"></div>
+      <div class="water2" style="background:url('img/slide3.jpeg')"></div>
+      <div class="water3" style="background:url('img/slide4.jpeg')"></div>
+      <div class="water4" style="background:url('img/slide5.jpeg')"></div>
+      <div class="water5" style="background:url('img/slide6.jpeg')"></div>
+
+      <!--<img src="img/slide2.jpg" alt="">
+      <img src="img/slide3.jpeg" alt="">
+      <img src="img/slide4.jpeg" alt="">
+      <img src="img/slide5.jpeg" alt="">
+      <img src="img/slide6.jpeg" alt="">-->
     </div>
 
     <div class="title-message">
@@ -759,7 +765,7 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBh2kQ6oPgQX1ofv2EAq2fyKSQ
 <script>
 jQuery(document).ready(function() {
   "use strict"
-  $('.water').ripples({
+  $('.water1, .water2, .water3, .water4, .water5').ripples({
     dropRadius: 15,
     perturbance: .01,
   });

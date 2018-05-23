@@ -10,21 +10,6 @@ function initMap(){
       // add marker
       addMarker({coords:event.latLng});
     })
-    /*
-    var marker = new google.maps.Marker({
-       position:{lat:34.0522, lng:-118.2437},
-       map:map,
-       icon:"https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png"
-     });
-
-     var infoWindow = new google.maps.InfoWindow({
-       content: "<h1>Los Angeles is where Fernando lives</h1>"
-     });
-
-     marker.addListener("click", function(){
-       infoWindow.open(map, marker);
-     })
-     */
 
      // array of markers
      var markers = [
