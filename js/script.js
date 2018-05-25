@@ -154,3 +154,22 @@ jQuery(document).ready(function() {
     perturbance: .01,
   });
 });
+
+$.getJSON('../votes.json', function(res) {
+				var items = [];
+
+				$.each(res, function(key, val){
+					items.push({
+						value: val["моя оценка"],
+						title: val["русскоязычное название"]
+					});
+				});
+				$("#chart").linechart({
+					data: items,
+					width: 50,
+					height: 10,
+					boxSize: 16,
+					line: true,
+					theme: "purple"
+				});
+			});
