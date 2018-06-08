@@ -6,10 +6,10 @@ body {
 }
 
 ::selection {
-  background: #2ecc71; /* WebKit/Blink Browsers */
+  background: #1e3799; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
-  background: #2ecc71; /* Gecko Browsers */
+  background: #1e3799; /* Gecko Browsers */
 }
 
 .water1 {
@@ -127,15 +127,6 @@ html, body {
   padding: 100px 0;
 }
 
-#about .col-md-4:hover {
-  transition: all 0.7s ease-in-out;
-}
-
-#about .col-md-4:hover {
-  background-color: #3498db;
-  color: #fff;
-}
-
 .about-image {
   max-width: 100%;
 }
@@ -148,6 +139,7 @@ html, body {
   border: 1px solid rgba(0,0,0,0.9);
   border-radius: 8px;
   box-shadow: 3px 5px #888888;
+  transition: all 0.7s ease-in-out;
 }
 
 .tech {
