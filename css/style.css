@@ -199,7 +199,7 @@ html, body {
 }
 
 .square-inner-container {
-  position: relative
+  position: relative;
   padding: 50px 15px 35px;
   text-align: center;
   border: 2px solid #444;
@@ -227,7 +227,7 @@ html, body {
   font-size: 56px;
   margin-bottom: 10px;
   font-weight: 400;
-  color: #e74c3c;
+  color: #1e3799;
 }
 
 .square-content h3 {
@@ -255,14 +255,14 @@ html, body {
   border: 1px solid #fff;
   border-radius: 2px;
   transition: .35s;
-  background-color: #e74c3c;
+  background-color: #1e3799;
 }
 
 .contact-button:hover {
   text-decoration: none;
   color: #e74c3c;
   background-color: #fff;
-  border: 1px solid #e74c3c;
+  border: 1px solid #1e3799;
 }
 
 .filter a {
