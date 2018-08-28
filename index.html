@@ -2,111 +2,177 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="description" content="Web Developer Portfolio, Web Developer, Graphic Designer, Front End Developer, Back End Developer, Full Stack Developer">
+  <meta name="keywords" content="HTML,CSS,Bootstrap,JavaScript, Web Developer, Graphic Designer, Front End Developer, Back End Developer, Full Stack Developer">
+  <meta name="author" content="Fernando Castanon">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Fernando Castanon, Web Developer, Portfolio">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Fernando D. Castanon | Welcome</title>
-  <!-- MY CSS3 STYLESHEET -->
+  <title>Fernando Castanon | Web Developer</title>
   <link rel="stylesheet" href="./css/style.css">
-  <!-- EXTERNAL LIBRARIES IMPORT SECTION-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link rel="stylesheet" href="css/superslides.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 </head>
 <body>
-  <!-- header section -->
-  <header class="dark-color text-center">
-    <div class="container-fluid">
-      <h1>Fernando <i class="fa fa-cogs" aria-hidden="true"></i></h1>
-    </div>
-  </header>
 
-  <!-- INTRODUCTION SECTION -->
-  <section id="intro" class="dark-color text-center">
-    <div class="container">
-    <h1 id="intro-heading">Fernando D. Castanon Front End Developer</h1>
-    <p id="intro-paragraph">Hello, I am a Computer Science major and Freelance Web Programmer who enjoys coding.</p>
-    <div class="lg-topspace">
-      <a href="#work" class="green-button">Check out the work that I do</a>
-    </div>
-    </div>
-  </section>
+  <div class="loader">
+    <div class="inner"></div>
+  </div>
 
-  <!-- WORK SECTION -->
-  <section id="work" class="light-color text-center">
-    <div class="container">
+  <div id="slides">
+    <div class="overlay"></div>
+    <div class="slides-container">
+      <div class="water1"></div>
+      <div class="water2"></div>
+      <div class="water3"></div>
+      <div class="water4"></div>
+      <div class="water5"></div>
+    </div>
+
+    <div class="title-message">
+      <div class="heading">
+        <p class="main">FERNANDO CASTANON</p>
+        <a href="https://twitter.com/ancientwarlord" target="_blank" class="intro-link"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/ancientsamuraiwarlord/" target="_blank" class="intro-link"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://github.com/FERNANDOCASTANON" target="_blank" class="intro-link"><i class="fa fa-github" aria-hidden="true"></i></a>
+        <a href="https://codepen.io/castanon12/" target="_blank" class="intro-link"><i class="fa fa-codepen"></i></a>
+        <p class="sub typed"></p>
+
+      </div>
+    </div>
+
+
+  <nav class="slides-navigation">
+    <a href="#" class="next"></a>
+    <a href="#" class="prev"></a>
+  </nav>
+</div>
+
+<nav id="navigation" class="navbar navbar-expand-lg">
+  <a class="navbar-brand" href="#">Fernando Castanon</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#skills">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#stats">Stats</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#portfolio">Portfolio</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div id="about" class="section text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h2>The work that I do <i class="fa fa-terminal" aria-hidden="true"></i></h2>
+        <h3>I create awesome stuff on the web</h3>
+      </div>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x text-danger"></i>
+          <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+        </span>
+        <h3>Graphic Design</h3>
+        <p>I use Photoshop to design artistic photos and logos for clients. They can be monochromatic,
+        tomonochromatic, and monochromatic. Disjointed Text, Monochromatic, brightness, glitch, liquid, font as illustration
+        systematic colors, deconstructivism, photo mascing, transparency.</p>
+      </div>
+
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+          <i class="fa fa-code fa-stack-1x fa-inverse"></i>
+        </span>
+        <h3>Full-Stack Web Development </h3>
+        <p>For Front-End Development I make online portfolios for Artists, Photographers, Personal Trainers etc.
+        I use HTML5, CSS3, Bootstrap, Javascript, and libraries like React.js.
+        For Back-End Development I use MySQL with PHP. As well as WordPress Theme Development and WooCommerce.</p>
+      </div>
+
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x text-warning"></i>
+          <i class="fa fa-database fa-stack-1x fa-inverse"></i>
+        </span>
+        <h3>Digital Marketing</h3>
+        <p>I offer SEO and Social Media services.</p>
+      </div>
+
+    </div>
+
+    <h1 class="text-center">The Technologies that I use</h1>
+
+    <div class="tech">
+
       <div class="row">
-        <div class="col-lg-12">
-          <h1>The work that I do</h1>
-          <h2>I create awesome stuff on the web</h2>
+        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+          <i class="devicon-html5-plain-wordmark colored"></i>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+          <i class="devicon-css3-plain-wordmark colored"></i>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+          <i class="devicon-javascript-plain colored"></i>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+          <i class="devicon-nodejs-plain-wordmark colored"></i>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+          <i class="devicon-react-original-wordmark colored"></i>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+          <i class="devicon-bootstrap-plain-wordmark colored"></i>
         </div>
       </div>
 
-      <div class="row text-center">
-        <div class="col-md-6">
-          <span class="fa-stack fa-4x">
-            <i class="fa fa-circle fa-stack-2x text-primary"></i>
-            <i class="fa fa-code fa-stack-1x fa-inverse"></i>
-          </span>
-          <h3>Front-End Web Development</h3>
-          <p>I make responsive websites. I build basic portfolios to eCommerce Sites for a business  mostly using JavaScript, Bootstrap, and Wordpress.
-          I can also maintain your current website or update it to what you best seem fit.</p>
-        </div>
-
-        <div class="col-md-6">
-          <span class="fa-stack fa-4x">
-            <i class="fa fa-circle fa-stack-2x text-primary"></i>
-            <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-          </span>
-          <h3>Web Design and UX/UI</h3>
-          <p>I love to build pages with a responsive web design. Comprehensive layout of content, and user friendly expirience. I use HTML, CSS, JavaScript, and Bootstrap
-            to create these beautiful web designs..</p>
-        </div>
-      </div>
-
       <div class="row">
-        <div class="col-lg-12">
-          <!-- Technologies list -->
-          <h1>The Technologies that I use</h1>
-          <div class="row text-center">
-            <div class="col-lg-3 col-md-2 col-sm-6 col-xs-6">
-              <i class="devicon-html5-plain-wordmark colored"></i>
-            </div>
-            <div class="col-lg-3 col-md-2 col-sm-6 col-xs-6">
-              <i class="devicon-css3-plain-wordmark colored"></i>
-            </div>
-            <div class="col-lg-3 col-md-2 col-sm-6 col-xs-6">
-              <i class="devicon-javascript-plain colored"></i>
-            </div>
-            <div class="col-lg-3 col-md-2 col-sm-6 col-xs-6">
-              <i class="devicon-bootstrap-plain-wordmark colored"></i>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-3 col-md-2 col-sm-6 col-xs-6">
+        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
           <i class="devicon-jquery-plain-wordmark colored"></i>
         </div>
-        <div id="py-icon" class="col-lg-3 col-md-2 col-sm-6 col-xs-6">
-          <i id="py-icon" class="devicon-python-plain-wordmark colored"></i>
+        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+          <i class="devicon-git-plain-wordmark colored"></i>
         </div>
-        <div class="col-lg-3 col-md-2 col-sm-6 col-xs-6">
-          <i class="devicon-atom-original colored"></i>
-        </div>
-        <div class="col-lg-3 col-md-2 col-sm-6 col-xs-6">
+        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
           <i class="devicon-github-plain-wordmark colored"></i>
         </div>
+        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+          <i class="devicon-php-plain colored"></i>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+          <i class="devicon-mysql-plain-wordmark colored"></i>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+          <i class="devicon-wordpress-plain-wordmark colored"></i>
+        </div>
       </div>
+
     </div>
 
-    <div class="xl-topspace">
-      <a href="#portfolio" class="green-button">View my projects</a>
-    </div>
-
+<<<<<<< HEAD
     </div>
   </section>
 
@@ -126,193 +192,474 @@
       <h3>Travel Site</h3>
       <p>I made a travel site to help new travelers with a guide to help them with their trip.</p>
     </div>
-
-    <div class="col-lg-4">
-      <h3>eCommerce Site</h3>
-      <p>[blank] wanted to sell his clothing brand online so I made him an eCommerce website so he could further spread his business. I used Wrordpress plugins</p>
-    </div>
-  </div>
-
-  <div id="fcc">
-    <h1>JavaScript and API projects</h1>
-    <h2>Intermediate Front-End Projects</h2>
-  </div>
-
-  <div class="row">
-    <div class="col-lg-3">
-      <h3>Random Anime Quote Generator</h3>
-      <p>I use to watch a lot of anime, so I made a quote generator of my favorive quotes from my favorite anime. Hunter X Hunter. Everytime
-      you click the new Quote button it gives you an amazing quote and you have the option to tweet it.</p>
-    </div>
-
-    <div class="col-lg-3">
-      <h3>Show Local Weather</h3>
-      <p>Currently a work in progress</p>
-    </div>
-
-    <div class="col-lg-3">
-      <h3>Build Wikipedia Viewer</h3>
-      <p>I used wikapedia's API to view specific articles</p>
-    </div>
-
-    <div class="col-lg-3">
-
-      <h3>Twitch.tv JSON API</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis veniam illum magni perferendis excepturi? Temporibus sint ipsum, atque tenetur, quas neque quasi. Ipsam incidunt eveniet consectetur sed.</p>
-    </div>
-  </div>
-
-  <h2>Advanced Front-End Projects</h2>
-
-  <div class="row">
-    <div class="col-lg-3">
-
-      <h3>JavaScript Calculator</h3>
-      <p>Everyone says if you can make a calculator in a programming language you know the basics. I took on the task. After a while this is what I came up with.</p>
-    </div>
-
-    <div class="col-lg-3">
-
-      <h3>Pomodoro Clock</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus distinctio asperiores suscipit. Ex minima commodi, repellat possimus maiores nulla autem ipsam sed officia voluptatibus blanditiis.</p>
-    </div>
-
-    <div class="col-lg-3">
-
-      <h3>Tic Tac Toe</h3>
-      <p>I made a tic tac toe game in javascript. I had to come up with an ai for the X and O to land correctly.</p>
-    </div>
-
-    <div class="col-lg-3">
-
-      <h3>Simon Game</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi quae aperiam aut earum nulla quasi.</p>
-    </div>
-  </div>
-
-  <div class="xl-topspace">
-    <a href="#about" class="green-button">More about me</a>
-  </div>
-  </div>
-  </section>
-
-  <!-- ABOUT ME SECTION -->
-  <section id="about" class="light-color text-center">
-    <div class="container-fluid">
-      <h1>About Me</h1>
-      <img id="profile-pic" src="./images/profile-pic.jpg" height="200px" width="200px" alt="Me">
-      <div class="row">
-        <div class="col-lg-6">
-          <p class="border">I am currently pursuing a B.S. in Computer Science. I am a highly motivated individual and self-taught Web Developer based in Los Angeles, California. My goal is to always provide amazing expiriences and quality websites to help bring anyone's ideas to the real world.</p>
-        </div>
-        <div class="col-lg-6">
-          <p class="border">My introduction to programming was in my first programming course in colloge. At the time I was an Electrical Engineering major who knew nothing about programming. I just knew I wanted to build robots. I enrolled in a Java and C course because it was required for my major. While in that class I met real Hackers and Software Developers that already had jobs working in the industry and were taking the class "just for fun". I was amazed at these individuals, as well as my other classmates, how much they could do, what they knew. After taking those classes I decided to switch my major to Computer Science realizing that I can program robots as well.</p>
-        </div>
+=======
+    <div class="row">
+      <div class="col-md-5">
+        <img class="about-image" src="img/me.png" alt="">
       </div>
-      <div class="row text-center">
-        <h1>Hobbies</h1>
+>>>>>>> master
 
-        <div class="row">
-          <div class="col-lg-4">
+      <div class="col-md-7">
+        <h4>Hello, I'm Fernando Castanon</h4>
+        <p>Hey there! I'm Fernando from Los Angeles, California. Currently working as an indepenent contractor/Freelance
+        Web Develoepr pursuing a B.S. in Computer Science. I have over a year of expirience developeing websites for my self
+        and for clients. I am a highly motivated individual
+        and self-taught Web Developer based in Los Angeles, Californi. My goal is to always provide amazing
+        expiriences and quality websites to help bring anyone's ideas to the real world.</p>
 
-            <h2 class="border">Arduino Starter Kit</h2>
-            <p>I always had an interest in Iron-Man and wondered if it was actually possible to create robots on your own or if you needed to be this super genius with a lot of money, then I started researching and found the Arduino and realized it is possible!</p>
-          </div>
+        <p>My introduction to programming was in my first programming course in colloge. At the time I was an Electrical Engineering major
+        who knew nothing about programming. I just knew I wanted to build robots. I enrolled in a Java and C course because it was required
+        for my major. While in that class I met real Hackers and Software Developers that already had jobs working in the industry and were
+        taking the class "just for fun". I was amazed at these individuals, as well as my other classmates, how much they could do, what they
+        knew. After taking those classes I decided to switch my major to Computer Science.</p>
 
-          <div class="col-lg-4">
+        <p><strong>I'm free to colaborate on any project ideas you might have! :)</strong></p>
+      </div>
+    </div>
+  </div>
 
-            <h2 class="border">I am a Raspberry pi 3 noob</h2>
-            <p>An intoduction to hardware. While researching the arduino I came across the Rasberry pi 3.</p>
-          </div>
+</div>
 
-          <div class="col-lg-4">
-
-            <h2 class="border">I make YouTube videos</h2>
-            <p>I started making YouTube videos to express my love for Arduino and Raspbarry Pi</p>
-          </div>
-
-        </div>
-
-        <div class="row">
-          <h1 class="border">Social Media</h1>
-
-          <div class="col-lg-12">
-
-            <h2>Follow me on <a href="https://www.instagram.com/ancientsamuraiwarlord/" target="_blank"><i id="ig-icon" class="fa fa-instagram" aria-hidden="true"></i></a> and
-            <a href="https://twitter.com/ancientwarlord" target="_blank" ><i id="tw-icon" class="fa fa-twitter-square" aria-hidden="true"></i></a> to see what I'm up to day to day!</h2>
-          </div>
-        </div>
-
-        </div>
-
-      <div class="lg-topspace sm-margin-space">
-        <a href="#contact" class="green-button">Let's get in touch</a>
+<div id="skills" class="skills-section section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2>TECHNICAL SKILLS</h2>
+        <p>Programming languages & Technologies</p>
       </div>
 
+      <div class="owl-carousel owl-theme">
+        <div class="skill">
+          <span class="chart" data-percent=67>
+            <span class="percent">67</span>
+            <canvas width="153" height="300"></canvas>
+          </span>
+          <h4>PHP</h4>
+          <p>Used in most of my web based projects</p>
+        </div>
+
+        <div class="skill">
+          <span class="chart" data-percent=30>
+            <span class="percent">30</span>
+            <canvas width="153" height="300"></canvas>
+          </span>
+          <h4>MySQL</h4>
+          <p>Used in some of my web based projects</p>
+        </div>
+
+        <div class="skill">
+          <span class="chart" data-percent=100>
+            <span class="percent">100</span>
+            <canvas width="153" height="300"></canvas>
+          </span>
+          <h4>HTML 5</h4>
+          <p>Used in all of my web based projects</p>
+        </div>
+
+        <div class="skill">
+          <span class="chart" data-percent=80>
+            <span class="percent">80</span>
+            <canvas width="153" height="300"></canvas>
+          </span>
+          <h4>CSS 3</h4>
+          <p>Used in all of my web based projects</p>
+        </div>
+
+        <div class="skill">
+          <span class="chart" data-percent=50>
+            <span class="percent">50</span>
+            <canvas width="153" height="300"></canvas>
+          </span>
+          <h4>JavaScript</h4>
+          <p>Used in all client sites and web projects</p>
+        </div>
+
+        <div class="skill">
+          <span class="chart" data-percent=11>
+            <span class="percent">11</span>
+            <canvas width="153" height="300"></canvas>
+          </span>
+          <h4>React</h4>
+          <p>Used in very few of my web based project</p>
+        </div>
+
+        <div class="skill">
+          <span class="chart" data-percent=70>
+            <span class="percent">70</span>
+            <canvas width="153" height="300"></canvas>
+          </span>
+          <h4>JQuery</h4>
+          <p>Used in all client sites and web projects</p>
+        </div>
+
+        <div class="skill">
+          <span class="chart" data-percent=30>
+            <span class="percent">30</span>
+            <canvas width="153" height="300"></canvas>
+          </span>
+          <h4>WordPress</h4>
+          <p>I make WordPress Themes and Plugins for fun</p>
+        </div>
+
+      </div>
     </div>
-  </section>
+  </div>
+</div>
 
-  <!-- CONTACT INFO SECTION -->
-  <section id="contact" class="dark-color text-center">
-    <div class="container">
-      <div id="contact-info">
-        <h1>Contact</h1>
+<div id="stats" class="stats-section section">
+  <div class="container">
+    <h2 class="text-center">STATISTICS</h2>
+    <div class="row">
 
-        <i class="fa fa-map-marker" aria-hidden="true"></i>
-        <p>Based in Los Angeles, CA.</p>
+      <div class="col-md-3 col-sm-6">
+        <div class="square-item">
+          <div class="square-inner-container">
+            <div class="square-icon">
+              <i class="fa fa-plane"></i>
+            </div>
+            <div class="square-content">
+              <h2 class="counter">2</h2>
+              <h3>Years Experience</h3>
+            </div>
+          </div>
+        </div>
+      </div>
 
-        <i class="fa fa-envelope-o" aria-hidden="true"></i>
-        <p>Email me at: fernandocastanon[@]gmail.com</p>
+      <div class="col-md-3 col-sm-6">
+        <div class="square-item">
+          <div class="square-inner-container">
+            <div class="square-icon">
+              <i class="fa fa-users" aria-hidden="true"></i>
+            </div>
+            <div class="square-content">
+              <h2 class="counter">10</h2>
+              <h3>Clients</h3>
+            </div>
+          </div>
+        </div>
+      </div>
 
-        <a class="footerlink" href="https://github.com/FERNANDOCASTANON"><i class="fa fa-github" aria-hidden="true"></i></a>
-        <p>My GitHub page.</p>
+      <div class="col-md-3 col-sm-6">
+        <div class="square-item">
+          <div class="square-inner-container">
+            <div class="square-icon">
+              <i class="fa fa-laptop" aria-hidden="true"></i>
+            </div>
+            <div class="square-content">
+              <h2 class="counter">115</h2>
+              <h3>Websites</h3>
+            </div>
+          </div>
+        </div>
+      </div>
 
-        <a class="footerlink" href="https://codepen.io/castanon12/"><i class="fa fa-codepen"></i></a>
-        <p>Codepen for other projects.</p>
+      <div class="col-md-3 col-sm-6">
+        <div class="square-item">
+          <div class="square-inner-container">
+            <div class="square-icon">
+              <i class="fa fa-book" aria-hidden="true"></i>
+            </div>
+            <div class="square-content">
+              <h2 class="counter">40</h2>
+              <h3>Books Read</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
+  </div>
+</div>
 
-    <div>
-      <h1>Social</h1>
-      <p>See what I'm up to</p>
-      <a class="footerlink" href="https://twitter.com/ancientwarlord">Twitter <i id="tw-icon" class="fa fa-twitter-square" aria-hidden="true"></i></a>
-      <a class="footerlink" href="https://www.instagram.com/ancientsamuraiwarlord/">Instagram <i id="ig-icon" class="fa fa-instagram" aria-hidden="true"></i></a>
+<div id="contact" class="contact-section section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p class="sub-heading">Like what you see?</p>
+        <h2>I'd love to hear from you!</h2>
+        <a href="mailTo:fernandocastanon777@gmail.com" class="contact-button">GET IN TOUCH</a>
+      </div>
+      <div id="map"></div>
     </div>
+  </div>
+</div>
 
-    <div class="xl-topspace">
-      <a href="#intro" class="green-button">Back to the top</a>
+<div id="portfolio" class="portfolio-section section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="heading">
+          <h2>PORTFOLIO</h2>
+        </div>
+
+        <div class="filter">
+          <ul id="filters">
+            <li><a href="#" data-filter="*" class="current">ALL</a></li>
+            <li><a href="#" data-filter=".php-projects">PHP</a></li>
+            <li><a href="#" data-filter=".js-projects">JAVASCRIPT</a></li>
+            <li><a href="#" data-filter=".clients">CLIENTS</a></li>
+            <li><a href="#" data-filter=".graphic-design">GRAPHIC DESIGN</a></li>
+          </ul>
+        </div>
+
+        <div class="items-container">
+          <ul class="items">
+
+            <li class="php-projects col-xs-6 col-sm-4 col-md-3 col-lg-3">
+              <div class="item">
+                <img src="img/portfolio/thumbnails/spotefy-login.PNG" class="img-fluid" alt="">
+
+                <div class="icons">
+                  <a href="img/portfolio/spotefy-login.png" title="View image" class="open-button"
+                  data-fancybox data-caption="Zotify">
+                    <i class="fa fa-search"></i>
+                  </a>
+                  <a href="https://github.com/fernandocastanon/zotefy" target="_blank" class="project-link">
+                    <i class="fa fa-link"></i>
+                  </a>
+                </div>
+
+                <div class="image-overlay"></div>
+
+              </div>
+            </li>
+
+            <li class="php-projects col-xs-6 col-sm-4 col-md-3 col-lg-3">
+              <div class="item">
+                <img src="img/portfolio/thumbnails/swipefeed.PNG" class="img-fluid" alt="">
+
+                <div class="icons">
+                  <a href="img/portfolio/swipefeed.png" title="View image" class="open-button"
+                  data-fancybox data-caption="eCommerce Store">
+                    <i class="fa fa-search"></i>
+                  </a>
+                  <a href="https://github.com/FERNANDOCASTANON/swipefeed" target="_blank" class="project-link">
+                    <i class="fa fa-link"></i>
+                  </a>
+                </div>
+
+                <div class="image-overlay"></div>
+
+              </div>
+            </li>
+
+            <li class="php-projects col-xs-6 col-sm-4 col-md-3 col-lg-3">
+              <div class="item">
+                <img src="img/portfolio/thumbnails/dr.png" class="img-fluid" alt="">
+
+                <div class="icons">
+                  <a href="img/portfolio/dr.png" title="View image" class="open-button"
+                  data-fancybox data-caption="eCommerce Store">
+                    <i class="fa fa-search"></i>
+                  </a>
+                  <a href="http://developerroad.com/" target="_blank" class="project-link">
+                    <i class="fa fa-link"></i>
+                  </a>
+                </div>
+
+                <div class="image-overlay"></div>
+
+              </div>
+            </li>
+
+            <li class="js-projects col-xs-6 col-sm-4 col-md-3 col-lg-3">
+              <div class="item">
+                <img src="img/portfolio/thumbnails/jsbusiness.png" class="img-fluid"alt="">
+
+                <div class="icons">
+                  <a href="img/portfolio/jsbusiness.png" title="View image" class="open-button"
+                  data-fancybox data-caption="MERN Social Netork for Developers">
+                    <i class="fa fa-search"></i>
+                  </a>
+                  <a href="https://fernandocastanon.github.io/business/" target="_blank" class="project-link">
+                    <i class="fa fa-link"></i>
+                  </a>
+                </div>
+
+                <div class="image-overlay"></div>
+
+              </div>
+            </li>
+
+            <li class="js-projects col-xs-6 col-sm-4 col-md-3 col-lg-3">
+              <div class="item">
+                <img src="img/portfolio/thumbnails/travel.png" class="img-fluid"alt="">
+
+                <div class="icons">
+                  <a href="img/portfolio/travel.png" title="View image" class="open-button"
+                  data-fancybox data-caption="MERN Social Netork for Developers">
+                    <i class="fa fa-search"></i>
+                  </a>
+                  <a href="https://fernandocastanon.github.io/travelville/" target="_blank" class="project-link">
+                    <i class="fa fa-link"></i>
+                  </a>
+                </div>
+
+                <div class="image-overlay"></div>
+
+              </div>
+            </li>
+
+            <li class="js-projects col-xs-6 col-sm-4 col-md-3 col-lg-3">
+              <div class="item">
+                <img src="img/portfolio/thumbnails/sushi1.png" class="img-fluid"alt="">
+
+                <div class="icons">
+                  <a href="img/portfolio/travel.png" title="View image" class="open-button"
+                  data-fancybox data-caption="MERN Social Netork for Developers">
+                    <i class="fa fa-search"></i>
+                  </a>
+                  <a href="https://fernandocastanon.github.io/travelville/" target="_blank" class="project-link">
+                    <i class="fa fa-link"></i>
+                  </a>
+                </div>
+
+                <div class="image-overlay"></div>
+
+              </div>
+            </li>
+
+            <li class="js-projects col-xs-6 col-sm-4 col-md-3 col-lg-3">
+              <div class="item">
+                <img src="img/portfolio/thumbnails/purple.png" class="img-fluid"alt="">
+
+                <div class="icons">
+                  <a href="img/portfolio/purple.png" title="View image" class="open-button"
+                  data-fancybox data-caption="Amazon Cloner">
+                    <i class="fa fa-search"></i>
+                  </a>
+                  <a href="https://fernandocastanon.github.io/huntingsite/" target="_blank" class="project-link">
+                    <i class="fa fa-link"></i>
+                  </a>
+                </div>
+
+                <div class="image-overlay"></div>
+
+              </div>
+            </li>
+
+            <li class="js-projects col-xs-6 col-sm-4 col-md-3 col-lg-3">
+              <div class="item">
+                <img src="img/portfolio/thumbnails/bizzland.png" class="img-fluid" alt="">
+
+                <div class="icons">
+                  <a href="img/portfolio/bizzland.png" title="View image" class="open-button"
+                  data-fancybox data-caption="This is Eren Yeager">
+                    <i class="fa fa-search"></i>
+                  </a>
+                  <a href="https://fernandocastanon.github.io/bizzland/" target="_blank" class="project-link">
+                    <i class="fa fa-link"></i>
+                  </a>
+                </div>
+
+                <div class="image-overlay"></div>
+
+              </div>
+            </li>
+
+            <li class="js-projects col-xs-6 col-sm-4 col-md-3 col-lg-3">
+              <div class="item">
+                <img src="img/portfolio/thumbnails/brown.PNG" class="img-fluid" alt="">
+
+                <div class="icons">
+                  <a href="img/portfolio/brown.png" title="View image" class="open-button"
+                  data-fancybox data-caption="This is Eren Yeager">
+                    <i class="fa fa-search"></i>
+                  </a>
+                  <a href="https://fernandocastanon.github.io/bootstrapbrowntheme/" target="_blank" class="project-link">
+                    <i class="fa fa-link"></i>
+                  </a>
+                </div>
+
+                <div class="image-overlay"></div>
+
+              </div>
+            </li>
+
+            <li class="js-projects col-xs-6 col-sm-4 col-md-3 col-lg-3">
+              <div class="item">
+                <img src="img/portfolio/thumbnails/social.png" class="img-fluid" alt="">
+
+                <div class="icons">
+                  <a href="img/portfolio/social.png" title="View image" class="open-button"
+                  data-fancybox data-caption="This is Eren Yeager">
+                    <i class="fa fa-search"></i>
+                  </a>
+                  <a href="https://fernandocastanon.github.io/bootstrapsocial/" target="_blank" class="project-link">
+                    <i class="fa fa-link"></i>
+                  </a>
+                </div>
+
+                <div class="image-overlay"></div>
+
+              </div>
+            </li>
+
+            <li class="clients col-xs-6 col-sm-4 col-md-3 col-lg-3">
+              <div class="item">
+                <img src="img/portfolio/thumbnails/barricade.png" class="img-fluid" alt="">
+
+                <div class="icons">
+                  <a href="img/portfolio/barricade.png" title="View image" class="open-button"
+                  data-fancybox data-caption="The Barricade Podcast">
+                    <i class="fa fa-search"></i>
+                  </a>
+                  <a href="https://github.com/fernandocastanon/zotefy" target="_blank" class="project-link">
+                    <i class="fa fa-link"></i>
+                  </a>
+                </div>
+
+                <div class="image-overlay"></div>
+
+              </div>
+            </li>
+
+            <li class="clients col-xs-6 col-sm-4 col-md-3 col-lg-3">
+              <div class="item">
+                <img src="img/portfolio/thumbnails/gains.png" class="img-fluid" alt="">
+
+                <div class="icons">
+                  <a href="img/portfolio/gains.png" title="View image" class="open-button"
+                  data-fancybox data-caption="Personal Training Website">
+                    <i class="fa fa-search"></i>
+                  </a>
+                  <a href="https://github.com/fernandocastanon/zotefy" target="_blank" class="project-link">
+                    <i class="fa fa-link"></i>
+                  </a>
+                </div>
+
+                <div class="image-overlay"></div>
+
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-    </div>
-  </section>
+  </div>
+</div>
 
-  <!-- FOOTER -->
-  <footer class="dark-color text-center">Fernando D. Castanon &copy; Copyright 2017</footer>
+<div class="footer">
+  <div class="col-md-12 text-center">
+    <p>Copyright &copy; 2018 Fernando Castanon</p>
+  </div>
+</div>
 
-  <script>document.body.className += ' fade-out';</script>
-
-  <script>
-
-  $(function() {
-    $('body').removeClass('fade-out');
-  });
-
-  $("a").on('click', function(event) {
-
-    if (this.hash !== "") {
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-
-        window.location.hash = hash;
-      });
-    }
-  });
-  </script>
-
-
+<script src="js/map.js"></script>
+<script src="js/countUp.js"></script>
+<script src="js/countUp-jquery.js"></script>
+<script src="js/jquery.superslides.js"></script>
+<script src="js/jquery.easypiechart.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/typed.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+<script src="https://unpkg.com/isotope-layout@3.0.5/dist/isotope.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBh2kQ6oPgQX1ofv2EAq2fyKSQWaqNySec&callback=initMap">
+</script>
 </body>
 </html>

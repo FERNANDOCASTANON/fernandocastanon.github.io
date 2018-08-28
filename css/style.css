@@ -1,212 +1,472 @@
-/* --------------------- GLOBAL------------------------ */
 body {
-    opacity: 1;
-    transition: 3s opacity;
-}
-
-section {
-  opacity: 1;
-  transition: 3s opacity;
-}
-body.fade-out {
-    opacity: 0;
-    transition: none;
-}
-html {
-    background-color: #fff;
-}
-
-/* Fix extra space in browser */
-
-html,body
-{
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
-}
-
-/* --------------------- GLOBAL CLASSES------------------------ */
-.light-color {
+  font-size: 14px;
+  color: #333;
   background-color: #fff;
-  color: black
-}
-
-.dark-color {
-  background-color: #222222;
-  color: white;
-}
-
-.green-button {
-  background-color: #33cc33;
-  color: white;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.lg-topspace {
-  margin-top: 40px;
-}
-
-.xl-topspace {
-  margin-top: 100px;
-  margin-bottom: 40px;
-}
-
-.margin-space {
-  margin-bottom: 140px;
-}
-
-.sm-margin-space {
-  margin-bottom: 40px;
+  letter-spacing: 1px;
 }
 
 ::selection {
-  background-color: #33cc33;
+  background: #1e3799; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #1e3799; /* Gecko Browsers */
 }
 
-header {
-  position: static;
-}
-
-.footerlink {
-  color: white;
-}
-
-.footergreen {
-  color: #333;
-}
-
-/* --------------------- GLOBAL ELEMENTS------------------------ */
-
-/* --------------------- GLOBAL STYLES------------------------ */
-
-/* --------------------- GLOBAL MEDIA QUERIES------------------------ */
-
-
-/* --------------------- ||||| INTRO ||||| ------------------------ */
-#intro {
-  background-image: url("../images/forest.jpg");
+.water1 {
+  background: url('../img/slide2.jpg');
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
-  height: 800px;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.water2 {
+  background: url('../img/slide3.jpeg') 0 0;
+  background-size: cover !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.water3 {
+  background: url('../img/slide4.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.water4 {
+  background: url('../img/slide5.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.water5 {
+  background: url('../img/slide6.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+#map{ height: 400px; width: 100%; margin-top: 20px;}
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+  background-color: rgba(0,0,0,0.4);
+}
+html, body {
+  overflow-x: hidden;
+}
+.slides-navigation a.prev,
+.slides-navigation a.next {
+  width: 47px;
+  height: 47px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slides-navigation a.prev {
+  left: 20px;
+  background: url('../img/icons/prev.png');
+}
+
+.slides-navigation a.next {
+  right: 20px;
+  background: url('../img/icons/next.png');
+}
+
+.title-message {
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  top: 50%;
+  z-index: 5;
+  text-align: center;
+  margin-top: -120px;
+}
+
+.title-message a {
   color: white;
-}
-/* --------------------- INTRO ID's------------------------ */
-#intro-heading {
-  font-size: 4em;
-  margin-top: 300px;
-}
-
-#intro-paragraph {
-  font-size: 3em;
+  font-size: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: .35s
 }
 
-#intro-paragraph {
-  font-style: italic;
+.title-message a:hover {
+  color: #2e86de;
 }
 
-/* --------------------- INTRO ELEMENTS------------------------ */
-
-/* --------------------- INTRO STYLES------------------------ */
-
-/* --------------------- INTRO MEDIA QUERIES------------------------ */
-@media only screen and (max-width : 900px) {
-  #intro {
-    height: 600px;
-  }
-
-  #intro-heading {
-    margin-top: 70px;
-    font-size: 2em;
-    width: 85%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  #intro-paragraph {
-    font-size: 1.4em;
-    width: 85%;
-    margin: auto;
-  }
-
-  .lg-topspace {
-    margin-top: 70px;
-  }
+.title-message .heading p {
+  color: #fff;
+  text-shadow: 0px 2px 5px rgba(0,0,0,0.4);
+  font-weight: 100;
+  letter-spacing: 7px;
 }
 
-/* --------------------- ||||| WORK THAT I DO ||||| ------------------------ */
-
-/* --------------------- WORK ID's------------------------ */
-#py-icon {
-  color: green;
+.title-message .heading .main {
+  font-size: 40px;
 }
-/* --------------------- GLOBAL ELEMENTS/ ADD ON's ------------------------ */
-i {
+
+.title-message .heading .sub {
+  font-size: 23px;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+.about-image {
+  max-width: 100%;
+}
+
+#about .tech i {
   font-size: 100px;
 }
-/* --------------------- WORK STYLEs------------------------ */
 
-/* --------------------- WORK MEDIA QUERIES------------------------ */
-@media only screen and (max-width : 900px) {
-  .xl-topspace {
-    margin-top: 50px;
-    margin-bottom: 30px;
-  }
+#about .col-md-4 {
+  border: 1px solid rgba(0,0,0,0.9);
+  border-radius: 8px;
+  box-shadow: 3px 5px #ddd;
+  transition: all 0.7s ease-in-out;
 }
 
-/* --------------------- ||||| PORTFOLIO SECTION ||||| ------------------------ */
-
-/* --------------------- PORTFOLIO ID's ------------------------ */
-
-/* --------------------- PORTFOLIO ELEMENTS / ADD ON's------------------------ */
-
-/* --------------------- PORTFOLIO STYLES ------------------------ */
-
-/* --------------------- PORTFOLIO MEDIA QUERIES ------------------------ */
-
-
-/* ---------------------||||| ABOUT ME ||||| ------------------------ */
-/* --------------------- ABOUT ID's------------------------ */
-#profile-pic {
-  border-radius: 50%;
+.tech {
+  margin-bottom: 50px;
 }
 
-#github-icon {
-  color: black;
+.skills-section, .contact-section {
+  background-color: #2e86de;
+  color: #fff;
+}
+
+.skill {
+  text-align: center;
+  margin-left: 10px;
+}
+
+.skill h4 {
+  color: #000;
+}
+
+.chart {
+  position: relative;
+  width: 152px;
+  height: 152px;
+  display: inline-block;
+  text-align: center;
+}
+
+.chart canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.chart .percent {
+  color: #000;
+  line-height: 152px;
+  display: inline-block;
   font-size: 35px;
 }
-
-#codepen-icon {
-  color: black;
-  font-size: 35px;
+/* add a percent symbol */
+.chart .percent::after {
+  content: '%';
 }
 
-.border {
-  border: 2px black solid;
-  background-color: #33cc33;
-  padding: 10px;
-  margin-top: 15px;
+.square-item {
+  margin-top: 30px;
+  position: relative;
 }
-/* --------------------- ABOUT ELEMENTS / ADD ON's------------------------ */
-/* --------------------- ABOUT STYLES------------------------ */
-/* --------------------- ABOUT MEDIA QUERIES ------------------------ */
 
-/* --------------------- ||||| CONTACT INFO ||||| ------------------------ */
-
-/* --------------------- CONTACT ID's ------------------------ */
- {
-
+.square-inner-container {
+  position: relative;
+  padding: 50px 15px 35px;
+  text-align: center;
+  border: 2px solid #444;
+  border-top: none;
 }
-/* --------------------- CONTACT ELEMENTS / ADD ON's------------------------ */
 
-/* --------------------- CONTACT STYLES------------------------ */
-/* --------------------- CONTACT MEDIA QUERIES------------------------ */
+.square-inner-container:before,
+.square-inner-container:after {
+  content: '';
+  position: absolute;
+  top: 0px;
+  width: 30%;
+  border-bottom: 2px solid #444;
+}
 
-/* --------------------- ||||| FOOTER SECTION ||||| ------------------------ */
-/* --------------------- FOOTER ID's------------------------ */
-/* --------------------- FOOTER ELEMENTS / ADD ON's------------------------ */
-/* --------------------- FOOTER STYLES------------------------ */
-/* --------------------- FOOTER MEDIA QUERIES------------------------ */
+.square-inner-container:before {
+  right: 0px
+}
+
+.square-inner-container:after {
+  left: 0px;
+}
+
+.square-content h2 {
+  font-size: 56px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  color: #1e3799;
+}
+
+.square-content h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.square-icon {
+  position: absolute;
+  left: 50%;
+  top: -45px;
+  width: 40%;
+  height: 60px;
+  font-size: 45px;
+  margin-left: -20%;
+  color: #444;
+}
+
+.contact-button {
+  color: #fff;
+  padding: 15px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  transition: .35s;
+  background-color: #1e3799;
+}
+
+.contact-button:hover {
+  text-decoration: none;
+  color: #e74c3c;
+  background-color: #fff;
+  border: 1px solid #1e3799;
+}
+
+.filter a {
+  color: #95a5a6;
+  border: 1px solid #95a5a6;
+  padding:10px 18px;
+  display: block;
+}
+
+.filter a:hover {
+  color: #e74c3c;
+  border: 1px solid #95a5a6;
+  padding:10px 18px;
+  display: block;
+}
+
+.filter li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.filter .current {
+  background-color: #e74c3c;
+  border-color:  #e74c3c;
+  color: #fff;
+}
+
+.filter .current:hover {
+  background-color: #e74c3c;
+  border-color:  #e74c3c;
+  color: #fff;
+}
+
+.filter {
+  text-align: center;
+  width: 100%;
+}
+
+.section .heading {
+  text-align: center;
+  padding-bottom: 40px;
+  width: 100%;
+}
+
+.items li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.items-container {
+  width: 100%;
+}
+
+.items li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.items-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.items li img {
+  width: 100%;
+  height: auto;
+
+  -webkit-transition: all 0.2s linear, 1s;
+  -moz-transition: all 0.2s linear, 1s;
+  -o-transition: all 0.2s linear, 1s;
+  -ms-transition: all 0.2s linear, 1s;
+}
+
+.items .item {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.items .icons {
+  position: absolute;
+  width: 90px;
+  height: 40px;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  z-index: 3;
+  margin: -0 auto auto -47px;
+}
+
+.items .icons i {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 9px;
+}
+
+.items a {
+  width: 40px;
+  height: 40px;
+  background-color: #e74c3c;
+  position: relative;
+  display: inline-block;
+
+  -webkit-transition: all 0.2s linear, 0.2s;
+  -moz-transition: all 0.2s linear, 0.2s;
+  -o-transition: all 0.2s linear, 0.2s;
+  -ms-transition: all 0.2s linear, 0.2s;
+}
+
+.items .image-overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+
+  -webkit-transition: all 0.2s linear, 1s;
+  -moz-transition: all 0.2s linear, 1s;
+  -o-transition: all 0.2s linear, 1s;
+  -ms-transition: all 0.2s linear, 1s;
+}
+
+.items .item:hover .image-overlay {
+  opacity: 1;
+}
+
+.items .open-button {
+  float: left;
+  left: -200px;
+}
+
+.items .project-link {
+  float: right;
+  right: -200px;
+}
+
+.items .item:hover .open-button {
+  left: 0px;
+}
+
+.items .item:hover .project-link {
+  right: 0px;
+}
+
+.items .item:hover img {
+  -webkit-transform: scale(1.05, 1.05);
+  -moz-transform: scale(1.05, 1.05);
+  -o-transform: scale(1.05, 1.05);
+  -ms-ttransform: scale(1.05, 1.05);
+}
+
+.footer {
+  background-color: #000;
+  color: white;
+  padding: 30px 5px;
+   bottom:0;
+}
+
+.footer p {
+  margin: 0;
+}
+
+#navigation {
+  background-color: #2e86de;
+  padding: 20px 10px;
+  z-index: 100;
+  width: 100%;
+  box-shadow: 0px 0px 17px 0px;
+}
+
+#navigation li {
+  padding: 0 10px;
+}
+
+#navigation li a {
+  color: #fff;
+  transition: .35s;
+}
+
+#navigation li a:hover {
+  color: #2ecc71;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+  color: #fff;
+}
+
+button span.navbar-toggler-icon {
+  background:url('../img/icons/menu.png');
+  background-size: 100%;
+}
+
+.fixedNav #navigation {
+  position: fixed;
+  top: 0;
+}
+
+.loader {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+}
+
+.loader .inner {
+  width: 100%;
+  height: 100%;
+  background: url('../img/red-loader.gif') center center no-repeat;
+}
