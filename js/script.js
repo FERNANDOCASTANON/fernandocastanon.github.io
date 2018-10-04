@@ -2,7 +2,7 @@ $(window).on("load", function() {
   $(".loader .inner").fadeOut(300, function() {
     $(".loader").fadeOut(550);
   });
-})
+});
 $(document).ready(function() {
   $('#slides').superslides({
     animation:'fade',
@@ -11,7 +11,7 @@ $(document).ready(function() {
   });
 
   var typed = new Typed(".typed", {
-    strings: ['Software Engineer.', 'Web Developer.', 'Graphic Designer.', 'Digital Marketing.'],
+    strings: ['Software Engineer.', 'Web Developer.', 'Graphic Designer.', 'SEO Analyst.'],
     typeSpeed: 70,
     loop: true,
     startDelay: 1000,
