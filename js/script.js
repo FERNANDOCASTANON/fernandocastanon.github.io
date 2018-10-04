@@ -2,7 +2,7 @@ $(window).on("load", function() {
   $(".loader .inner").fadeOut(300, function() {
     $(".loader").fadeOut(550);
   });
-})
+});
 $(document).ready(function() {
   $('#slides').superslides({
     animation:'fade',
